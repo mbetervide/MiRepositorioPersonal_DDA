@@ -22,7 +22,7 @@ public class HolamundoApplication {
 		//get, put, delete, post, patch - tengo otras acciones
 		@GetMapping("/holaMundo")
 		public String holaMundo(){
-			return "Hola Mundo";
+			return "Hola mundillo";
 		}
 
 	}
